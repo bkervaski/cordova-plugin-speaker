@@ -33,12 +33,12 @@
      if (enabled)
      {
         [session overrideOutputAudioPort:AVAudioSessionPortOverrideSpeaker error:nil];
-        NSLog(@"Speaker:Speaker:Enabled");
+        NSLog(@"Speaker: On");
      }
      else
      {
          [session overrideOutputAudioPort:AVAudioSessionPortOverrideNone error:nil];
-         NSLog(@"Speaker:Speaker:Disabled");
+         NSLog(@"Speaker: Off");
      }
      [session setActive:YES error:&error];
  }

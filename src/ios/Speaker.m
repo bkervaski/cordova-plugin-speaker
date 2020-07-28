@@ -24,7 +24,7 @@
 
      NSLog(@"Speaker:Category: %@", session.category);
      NSLog(@"Speaker:Mode: %@", session.mode);
-     NSLog(@"Speaker:Mode: %@", session.currentRoute.outputs.firstObject.portName);
+     NSLog(@"Speaker:Route: %@", session.currentRoute.outputs.firstObject.portName);
 
      NSError *error;
 

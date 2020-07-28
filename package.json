@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-speaker",
+  "version": "1.0.0",
+  "description": "Speaker",
+  "cordova": {
+    "id": "cordova-plugin-speaker",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkervaski/cordova-plugin-speaker.git"
+  },
+  "keywords": [
+    "cordova",
+    "speaker",
+    "audio",
+    "toggle",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Bill Kervaski",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/bkervaski/cordova-plugin-speaker/issues"
+  },
+  "homepage": "https://github.com/bkervaski/cordova-plugin-speaker#readme"
+}

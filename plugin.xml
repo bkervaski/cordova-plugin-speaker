@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-speaker" version="1.0.0">
+    <name>cordova-plugin-speaker</name>
+    <description>Speaker</description>
+    <license>Apache</license>
+    <keywords>cordova,speaker,audio,toggle</keywords>
+    <js-module src="www/speaker.js" name="device">
+        <clobbers target="Speaker" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Speaker">
+                <param name="ios-package" value="Speaker"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Speaker.h" />      
+        <source-file src="src/ios/Speaker.m" />
+        <framework src="AVFoundation.framework" />
+        <framework src="AudioToolbox.framework" />
+    </platform>
+</plugin>
+
